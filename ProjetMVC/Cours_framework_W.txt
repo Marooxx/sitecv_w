@@ -1,0 +1,70 @@
+Différence entre framework et librairies
+
+librairie = exp : jquery 
+j'utilise les fonctions d'un langage mais je décide de les utiliser comme bon me semble
+
+framework = cadre de developpement
+il y a un certains nbres de classes et fonctions qui facilitent le développement
+il y a dejà des fonctions et classes prédéfinies en sont sein
+chaque framework à ses propres classes et  propre fonctionnement
+On est obligé d'utiliser les classes du framework
+
+ORM = 
+
+Heidi SQL = ? 
+
+On doit tjs reflechir sur la modelisation du projet 
+
+MERISE 2 = ?
+
+On rassemble des infos qui conduit à la modelisation
+
+Power Designer = ?
+tags= mot cles
+MLD = modele logique de donnée qui conduit à la base de donnée
+UML = modelisation graphique qui permet de visualiser un systeme
+getter =  recuperer
+voir openclassrooms => explique UML
+
+Data Mapper - approche pour lire BDD lorsque l on programme en POO(programmation oriente objet)
+la class est independante de la BDD
+Active Record = la class est liée à la BDD .Chaque nouvelle objet , crée un nouvelle entrée dans la BDD
+ORM =  objet relational mapping ( exp: Doctrine ORM ou Propel )
+MVVM = ?-- des que la BDD se met à jour en même temps que la View
+MVC = permet de separer la partie BDD
+M = BDD
+V = HTML, concerne le Front
+C = fait le pont entre BDD et View
+c'est le controleur qui reçoit les infos--> consulte la BDD --> renvoie à la View
+
+
+Front controleur = va masquer la structure du site. Cest le seul d'entréé avec l'utilisateur
+
+Composer = permet de verifier les MAJ de notre framework
+
+Manip pour acceder au tuto Framework W
+http://localhost/TechNewsPF/docs/tuto/
+
+logiciel pour trouver de la  docs : 
+Velocity https://velocity.silverlakesoftware.com/( avec SHIFT+F1 , on tombe sur la doc de l'élément voulu)
+plug in search Docsets
+
+Il y'a  Devdocs.io( docs offline)
+
+////////// STRUCTURE DU FRAMEWORK W \\\\\\\\\\\\\\\
+Vendor =  contient toutes les librairies donc dépendances
+Dossier W = structure du framework W
+(spl_autoload_register() va permettre d'inclure des classes automatiquements)
+Public = contient les point d'entree et assets de l'application
+App= 
+/ = url
+Defaut#home=controleur avec la vue home(ou action "home")
+default_routes = id de la route (= controleur + nom de vue)
+layout.php = template-- presentation/structure generale du site  
+
+
+lorsque l'on cree un nouveau template : 
+1/ route
+2/controller
+3/vue
+
