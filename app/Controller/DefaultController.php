@@ -14,5 +14,8 @@ class DefaultController extends Controller
 	{
 		$this->show('default/home');
 	}
-
+	public function sitecv()
+	{
+		$this->show('default/sitecv');
+	}
 }
