@@ -1,4 +1,5 @@
-!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
 
@@ -7,16 +8,16 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title><?= $this->e($title) ?></title>
+  <title></title>
 
-	<link rel="stylesheet" href="<?= $this->assetUrl('css/style.css') ?>">
-  <link href="<?= $this->assetUrl('css/bootstrap.min.css" rel="stylesheet'>; ?>">
-  <link href="css/animate.min.css" rel="stylesheet">
-  <link href="css/font-awesome.min.css" rel="stylesheet">
-  <link href="css/lightbox.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
-  <link href="css/responsive.css" rel="stylesheet">
+	<link rel="stylesheet" href="<?= $this->assetUrl('css/style.css');?>">
+  <link href="<?= $this->assetUrl('css/bootstrap.min.css');?>" rel= 'stylesheet'>
+  <link href="<?= $this->assetUrl('css/animate.min.css');?>" rel= 'stylesheet'>
+  <link href="<?= $this->assetUrl('css/font-awesome.min.css');?>" rel= 'stylesheet'>
+  <link href="<?= $this->assetUrl('css/lightbox.css'); ?>" rel='stylesheet'>
+  <link href="<?= $this->assetUrl('css/main.css'); ?>" rel='stylesheet'>
+  <link id='css-preset' href="<?= $this->assetUrl('css/presets/preset1.css');?>" rel='stylesheet'>
+  <link href="<?$this->assetUrl('css/responsive.css'); ?>" rel='stylesheet'>
 
   <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
